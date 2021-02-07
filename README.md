@@ -3,8 +3,8 @@ Universuty: KubSU
 
 Student: Misulev Alexey
 
-Course: 2
-
 Faculty: Computer Technologies And Applied Aathematics
+
+Course: 2
 
 Group: 26
