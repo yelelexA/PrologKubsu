@@ -1,5 +1,5 @@
 # PrologKubsu
-Universuty: KubSU
+Universuty: Kubsu
 
 Student: Misulev Alexey
 
