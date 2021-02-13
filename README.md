@@ -1,9 +1,9 @@
 # PrologKubsu
-Universuty: KubSU
+Universuty: Kubsu
 
 Student: Misulev Alexey
 
-Faculty: Computer Technologies And Applied Aathematics
+Faculty: Computer Technologies And Applied Mathematics
 
 Course: 2
 
