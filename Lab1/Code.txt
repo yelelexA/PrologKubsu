@@ -1,0 +1,2 @@
+men :- man(X),write(X),nl.
+women :- woman(X),write(X),nl.
