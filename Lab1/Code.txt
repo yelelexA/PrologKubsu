@@ -11,3 +11,6 @@ son(X) :- parent(X,Y),man(Y),write(Y),nl.
 
 brother(X,Y) :- man(X),parent(Z,X),parent(Z,Y).
 brothers(X) :- parent(Y,X),parent(Y,Z),man(Z),write(Z),nl,fail.
+
+sister(X,Y) :- woman(X),parent(Z,X),parent(Z,Y).
+sisters(X) :- parent(Y,X),parent(Y,Z),woman(Z),write(Z),nl,fail.
