@@ -5,3 +5,6 @@ children(X) :- parent(X,Y),write(Y),nl,fail.
 
 mother(X,Y) :- parent(X,Y),woman(X).
 mother(X) :- parent(Y,X),woman(Y),write(Y),nl.
+
+father(X,Y) :- parent(X,Y),man(X).
+father(X) :- parent(Y,X),man(Y),write(Y),nl.
