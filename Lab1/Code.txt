@@ -9,8 +9,11 @@ mother(X) :- parent(Y,X),woman(Y),write(Y),nl.
 son(X,Y) :- parent(Y,X),man(X).
 son(X) :- parent(X,Y),man(Y),write(Y),nl.
 
-brother(X,Y) :- man(X),parent(Z,X),parent(Z,Y).
-brothers(X) :- parent(Y,X),parent(Y,Z),man(Z),write(Z),nl,fail.
+brother(X,Y) :- man(X),parent(Z,X),parent(Z,Y),X\=Y.
+brothers(X) :- parent(Y,X),parent(Y,Z),Z\=X,man(Z),write(Z),nl,fail.
 
-sister(X,Y) :- woman(X),parent(Z,X),parent(Z,Y).
-sisters(X) :- parent(Y,X),parent(Y,Z),woman(Z),write(Z),nl,fail.
+sister(X,Y) :- woman(X),parent(Z,X),parent(Z,Y),X\=Y.
+sisters(X) :- parent(Y,X),parent(Y,Z),Z\=X,woman(Z),write(Z),nl,fail.
+
+b_s(X,Y) :- parent(Z,X),parent(Z,Y),X\=Y.
+b_s(X) :- parent(Y,X),parent(Y,Z),X\=Z,write(Z),nl,fail.
