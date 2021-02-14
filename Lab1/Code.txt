@@ -1,5 +1,5 @@
-men :- man(X),write(X),nl.
-women :- woman(X),write(X),nl.
+men :- man(X),write(X),nl,fail.
+women :- woman(X),write(X),nl,fail.
 
 children(X) :- parent(X,Y),write(Y),nl,fail.
 
@@ -20,3 +20,6 @@ b_s(X) :- parent(Y,X),parent(Y,Z),X\=Z,write(Z),nl,fail.
 
 grand_pa(X,Y) :- parent(Z,Y),parent(X,Z),man(X).
 grand_pas(X) :- parent(Y,X),parent(Z,Y),man(Z),write(Z),nl,fail.
+
+grand_son(X,Y) :- parent(Z,X),parent(Y,Z),man(X).
+grand_sons(X) :- parent(Y,Z),parent(X,Y),man(Z),write(Z),nl,fail.
