@@ -1,2 +1,4 @@
 men :- man(X),write(X),nl.
 women :- woman(X),write(X),nl.
+
+children(X) :- parent(X,Y),write(Y),nl,fail.
