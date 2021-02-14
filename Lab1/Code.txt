@@ -23,3 +23,5 @@ grand_pas(X) :- parent(Y,X),parent(Z,Y),man(Z),write(Z),nl,fail.
 
 grand_son(X,Y) :- parent(Z,X),parent(Y,Z),man(X).
 grand_sons(X) :- parent(Y,Z),parent(X,Y),man(Z),write(Z),nl,fail.
+
+grand_pa_and_son(X,Y) :- (parent(Z,X),parent(Y,Z),man(X),man(Y));(parent(Z,Y),parent(X,Z),man(X),man(Y)).
