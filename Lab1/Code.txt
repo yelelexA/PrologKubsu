@@ -17,3 +17,6 @@ sisters(X) :- parent(Y,X),parent(Y,Z),Z\=X,woman(Z),write(Z),nl,fail.
 
 b_s(X,Y) :- parent(Z,X),parent(Z,Y),X\=Y.
 b_s(X) :- parent(Y,X),parent(Y,Z),X\=Z,write(Z),nl,fail.
+
+grand_pa(X,Y) :- parent(Z,Y),parent(X,Z),man(X).
+grand_pas(X) :- parent(Y,X),parent(Z,Y),man(Z),write(Z),nl,fail.

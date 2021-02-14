@@ -1,8 +1,12 @@
+man(denis).
 man(farul).
 man(frodo).
 man(nekitos).
 man(yarik).
 man(stiv).
+man(ricardo).
+man(oleg).
+man(petro).
 man(valerka).
 man(cj).
 man(garry).
@@ -16,18 +20,25 @@ man(zimogor).
 man(jenya).
 man(nejenya).
 
+woman(sofia).
 woman(frosya).
 woman(lussy).
 woman(ksenia).
+woman(lana).
 woman(alex).
 woman(mila).
+woman(rose).
 woman(frula).
 woman(lilly).
 woman(dusya).
 woman(jaina).
+woman(clem).
 woman(sanya).
 woman(leya).
 woman(alena).
+
+parent(sofia,petro).
+parent(denis,petro).
 
 parent(farul,frula).
 parent(farul,lilly).
@@ -40,6 +51,7 @@ parent(lussy,valerka).
 parent(nekitos,cj).
 parent(ksenia,cj).
 
+parent(lana,dusya).
 parent(yarik,dusya).
 
 parent(stiv,garry).
@@ -49,7 +61,15 @@ parent(alex,potter).
 
 parent(mila,jaina).
 parent(mila,anduin).
+parent(ricardo,jaina).
+parent(ricardo,anduin).
 
+parent(oleg,clem).
+parent(rose,clem).
+
+parent(petro,sanya).
+parent(petro,sanek).
+parent(petro,sanchez).
 parent(frula,sanya).
 parent(frula,sanek).
 parent(frula,sanchez).
@@ -63,6 +83,9 @@ parent(potter,jabba).
 parent(potter,alena).
 parent(jaina,jabba).
 parent(jaina,alena).
+
+parent(anduin,zimogor).
+parent(clem,zimogor).
 
 parent(leya,jenya).
 parent(leya,nejenya).
