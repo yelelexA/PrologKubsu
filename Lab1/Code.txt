@@ -28,5 +28,8 @@ grand_pa_and_son(X,Y) :- (parent(Z,X),parent(Y,Z),man(X),man(Y));(parent(Z,Y),pa
 
 grand_pa_and_da(X,Y) :- (parent(Z,X),parent(Y,Z),man(Y),woman(X));(parent(X,Z),parent(Z,Y),man(X),woman(Y)).
 
-uncle(X,Y) :- parent(Z,Y), brother(X,Z).
-uncles(X) :- parent(Z,X), brothers(Z).
+uncle(X,Y) :- parent(Z,Y),brother(X,Z).
+uncles(X) :- parent(Z,X),brothers(Z).
+
+aunt(X,Y) :- parent(Z,Y),sister(X,Z).
+aunts(X) :- parent(Z,X),sisters(Z).
