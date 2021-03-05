@@ -22,20 +22,20 @@
 	21. Isaac - 350000 #The binding of Isaac
 	22. Batman - 333000 #Batman
 	23. Corvo Attano - 353200 #Dishonored
-	24. Vaas Montenegro -323210 #Far Cry 3
-	25. Joel - 433200 #TLoU #
-	26. Ellie - 431001 #TLoU #
-	27. Lee Everett - 433300 #TWD #
-	28. Clementine - 430001 #TWD #
+	24. Vaas Montenegro - 323210 #Far Cry 3
+	25. Joel - 433200 #TLoU 
+	26. Ellie - 431001 #TLoU 
+	27. Lee Everett - 433300 #TWD 
+	28. Clementine - 430001 #TWD 
 	29. Nathan Drake - 423000 #Uncharted
-	30. Aiden Pearce - 433-00 #Watch Dogs
+	30. Aiden Pearce - 433000 #Watch Dogs
 	31. Michael De Santa - 423300 #GTA V
 	32. Trevor Philips - 423320 #GTA V
 	33. Franklin Clinton - 422000 # GTA V
 	34. Tracer - 532001 #Owerwatch
 	35. Eloy - 552001 #Horizon Zero Dawn
 	36. Connor - 642300 #Detroit
-	37. Sam - 643000 #Deth Stranding
+	37. Sam - 643000 #Death Stranding
 	38. Deacon St. John - 642000 #Days Gone
 	39. Abby - 632021 #TLoU 2
 	40. Miles Morales - 621000 #SM: Miles Morales
