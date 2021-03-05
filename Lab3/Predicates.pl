@@ -28,5 +28,10 @@ fib(N, CurX1, CurX2, X) :- CurX3 is CurX1 + CurX2, N1 is N - 1, fib(N1, CurX2, C
 fibN(N, X) :- fib(N, 1, 1, X).
 
 % Task #7
-sumOfDigits(0, 0) :- !.
-sumOfDigits(Num, Sum) :- Mod is Num mod 10, Num1 is Num div 10, sumOfDigits(Num1, Sum1), Sum is Sum1 + Mod.
+sum_digits_up(0, 0) :- !.
+sum_digits_up(Num, Sum) :- Mod is Num mod 10, Num1 is Num div 10, sum_digits_up(Num1, Sum1), Sum is Sum1 + Mod.
+
+% Task #8
+sum_digits_down(0, CurSum, CurSum) :- !.
+sum_digits_down(Num, CurSum, Sum) :- Mod is Num mod 10, Num1 is Num div 10, CurSum1 is CurSum + Mod, sum_digits_down(Num1, CurSum1, Sum).
+sum_digits_down_n(Num, Sum) :- sum_digits_down(Num, 0, Sum).
