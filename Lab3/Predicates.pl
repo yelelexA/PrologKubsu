@@ -35,3 +35,7 @@ sum_digits_up(Num, Sum) :- Mod is Num mod 10, Num1 is Num div 10, sum_digits_up(
 sum_digits_down(0, CurSum, CurSum) :- !.
 sum_digits_down(Num, CurSum, Sum) :- Mod is Num mod 10, Num1 is Num div 10, CurSum1 is CurSum + Mod, sum_digits_down(Num1, CurSum1, Sum).
 sum_digits_down_n(Num, Sum) :- sum_digits_down(Num, 0, Sum).
+
+% Task #9
+min_digit(Min, Min) :- Min div 10 =:= 0, !.
+min_digit(Num, Min) :- Min2 is Num mod 10, Num1 is Num div 10, min_digit(Num1, Min1), (Min1 < Min2 -> Min is Min1; Min is Min2).
