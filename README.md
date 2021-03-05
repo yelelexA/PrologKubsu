@@ -1,10 +1,14 @@
 # PrologKubsu
-Universuty: Kubsu
+This repository was created for laboratory work on the SWI-Prolog programming language at my university.
 
-Student: Misulev Alexey
+Information about the student(about me):
 
-Faculty: Computer Technologies And Applied Mathematics
+    University: Kubsu
 
-Course: 2
+    Student: Misulev Alexey
 
-Group: 26
+    Faculty: Computer Technologies And Applied Mathematics
+
+    Course: 2
+
+    Group: 26
