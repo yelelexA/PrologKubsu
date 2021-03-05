@@ -1,0 +1,81 @@
+# List of Video-Game characters and keys
+	1. Max Payne - 013000 # Max Payne
+	2. Serious Sam - 053000 #Serious Sam
+	3. Claude - 012020 #GTA III
+	4. Thomas Angelo - 013220 #Mafia
+	5. Bastila Shan - 052101 #KOTOR
+	6. Sam Fisher - 023000 #Splinter Cell
+	7. Jack Carver - 123220 #Far Cry
+	8. Rico Rodriguez - 123000 #Just Cause
+	9. CJ - 122020 #GTA:SA
+	10. Kratos - 154000 #God of War
+	11. Alex Mercer - 252210 #Prototype
+	12. Captain Price - 233000 #CoD MW
+	13. Big Daddy - 244210 #Bioshock
+	14. Geralt - 203000 #The Witcher
+	15. Captain Shepherd 242000 #Mass Effect
+	16. Altair - 203100 #Assassins Creed 
+	17. Ezio - 202100 #Assassins Creed II 
+	18. Stiv - 252000 #Minecraft
+	19. Niko Belik - 213020 # GTA IV
+	20. John Marston - 303220 #Red Ded Redemption
+	21. Isaac - 350000 #The binding of Isaac
+	22. Batman - 333000 #Batman
+	23. Corvo Attano - 353200 #Dishonored
+	24. Vaas Montenegro -323210 #Far Cry 3
+	25. Joel - 433200 #TLoU #
+	26. Ellie - 431001 #TLoU #
+	27. Lee Everett - 433300 #TWD #
+	28. Clementine - 430001 #TWD #
+	29. Nathan Drake - 423000 #Uncharted
+	30. Aiden Pearce - 433-00 #Watch Dogs
+	31. Michael De Santa - 423300 #GTA V
+	32. Trevor Philips - 423320 #GTA V
+	33. Franklin Clinton - 422000 # GTA V
+	34. Tracer - 532001 #Owerwatch
+	35. Eloy - 552001 #Horizon Zero Dawn
+	36. Connor - 642300 #Detroit
+	37. Sam - 643000 #Deth Stranding
+	38. Deacon St. John - 642000 #Days Gone
+	39. Abby - 632021 #TLoU 2
+	40. Miles Morales - 621000 #SM: Miles Morales
+
+# Questions and Answers:
+	# QaA #1 - "In what year did the game with this character first come out?" #7
+		0. 2001 - 2003
+		1. 2004 - 2006
+		2. 2007 - 2009
+		3. 2010 - 2012
+		4. 2013 - 2015
+		5. 2016 - 2018
+		6. 2018 - 2020
+
+	# QaA #2 - "What time does the character live in?" #6
+		0. The distant past 
+		1. Recent past
+		2. The present
+		3. The near future
+		4. The distant future
+		5. Unknown fantasy world
+
+	# QaA #3 - "What age group does the character belong to?" #5
+		0. Kid (12-)
+		1. Teenager (13-21)
+		2. Young (22-30)
+		3. Adult (31-55)
+		4. Elderly (56+)
+
+	# QaA #4 - "How did your character die?" #4
+		0. Alive
+		1. Died of old age
+		2. Was killed
+		3. Depends on the choice
+
+	# QaA #5 - "Is your character a hero or a villain?" #3
+		0. Hero
+		1. Villian
+		2. Controversial
+
+	# QaA #6 - "What gender is your character?" #2
+		0. Male
+		1. Female
