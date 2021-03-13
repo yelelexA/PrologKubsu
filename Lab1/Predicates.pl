@@ -10,7 +10,7 @@ mother(X,Y) :- parent(X,Y),woman(X). % Проверяет, является ли
 mother(X) :- parent(Y,X),woman(Y),write(Y),nl. % Выводит на экран маму X
 
 % Task 4:
-son(X,Y) :- parent(Y,X),man(X). % Проверяет, является ли X сыном Y
+son(X,Y) :- parent(Y,X),man(X),!. % Проверяет, является ли X сыном Y
 son(X) :- parent(X,Y),man(Y),write(Y),nl,!. % Выводит на экран сына X
 
 % Task 5:
